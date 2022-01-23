@@ -35,18 +35,24 @@ Now let's do some coding, for this project we would be using the RPA Framework w
 
 ## Let's start by installing all necessary Python Package
 
-```!pip install rpa```
+```
+!pip install rpa
+```
 
 The rpa library is an open-source python package developed by  GitHub: [tebelorg](https://github.com/tebelorg/RPA-Python)
 
-`import rpa as r`
+```
+import rpa as r
+```
 
 ## Applications
 - **Site Navigation**
 RPA has the ability to navigate through the web and get specific information. The process saves time and stress.
 Now we can initialize the rpa to open a new browser window. The browser used by the rpa package is Google Chrome.
 
-`r.init()`
+```
+r.init()
+```
 
 After we initiate the rpa, our aim is to navigate through a particular blog post
 
