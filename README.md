@@ -76,6 +76,7 @@ r.init()
 
 The data that would be used for this stage is the breast cancer dataset that is provided by UCI database.
 
+
 ```
 r.url("https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer/")
 ```
@@ -87,3 +88,35 @@ After getten to the site you would have to click on the download button which ca
 ```
 r.click("breast-cancer.data")
 ```
+
+- **Web Automation**
+
+Web automation is the concept of letting software robots perform pre-defined actions, tasks, and processes on a web browser or web application.
+
+Start by activating the RPA library.
+
+```
+r.init()
+r.url('https://www.google.com')
+r.type('//*[@name="q"]', 'USA[enter]')
+print(r.read('result-stats'))
+r.snap('page', 'USA.png')
+```
+
+What is actually happening here is firstly, your chrome browser opens when you initialize the code.
+It then navigate to google were is search for a specific key word which we have inserted called USA.
+Lastly it then saves the search location as a png format.
+
+Below is an explanation of the entire process of what actually happened.
+
+At the end of each line of code you have to close the rpa system. This way saves energy of your device.
+
+```
+r.close()
+#This is meant to close the RPA system running of Chrome.
+```
+
+**Note:** That if there are two hyperlinks with the same label "here" and we execute rpa.click("breast-cancer.data"), then the robot will click on the first one it finds.
+
+## Conclusion
+In the world of advancement of science and technology, rise in AR, AI,NFT, BlockChain and other cryptocurrency, you don't have to be scared of technology rather you have to embrance the rise of it. RPA would grow to have more application especially in the healthcare and finance sector. The would help save time which are usually lost during document sorting.
