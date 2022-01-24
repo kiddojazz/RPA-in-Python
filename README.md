@@ -1,6 +1,7 @@
 # RPA-in-Python
 
-![alt text](image.jpg)
+![alt text](https://github.com/kiddojazz/RPA-in-Python/blob/main/images/Robot.png)
+
 In this post, we'll cover a few packages for doing robotic process automation with Python and the entire work of Robotics Process Automation in Industry and other business processes.
 
 The world of Science and Technology keeps evolving daily with big organizations turning to robotic process automation to carry out their daily tasks, thereby making employees focus on other tasks that require more human interaction.
@@ -66,6 +67,8 @@ After you achieve the navigating it is only proper you close the browser.
 r.close()
 ```
 
+![alt text](https://github.com/kiddojazz/RPA-in-Python/blob/main/images/1_whqu1h1ZuDYDuJAxWf_F_A.gif)
+
 - **Automatically Download Data from a site**
 
 Start by initializing the rpa library
@@ -83,11 +86,15 @@ r.url("https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer/"
 
 This would automatically open your Chrome browser and navigate to the UCI website to download the breast cancer dataset.
 
+![alt text](https://github.com/kiddojazz/RPA-in-Python/blob/main/images/1_suVb1vHRVX-SDeFS1tmDhA.png)
+
 After getten to the site you would have to click on the download button which can be done by running the click line of code. This would help in downloading the code.
 
 ```
 r.click("breast-cancer.data")
 ```
+
+![alt text](https://github.com/kiddojazz/RPA-in-Python/blob/main/images/1_vA_A5J_ZwKsb6oEUKYojEA.png)
 
 - **Web Automation**
 
@@ -108,6 +115,8 @@ It then navigate to google were is search for a specific key word which we have 
 Lastly it then saves the search location as a png format.
 
 Below is an explanation of the entire process of what actually happened.
+
+![alt text](https://github.com/kiddojazz/RPA-in-Python/blob/main/images/1_NYu8AhHZdcLr7hDOhRn0Pw.gif)
 
 At the end of each line of code you have to close the rpa system. This way saves energy of your device.
 
