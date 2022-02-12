@@ -130,4 +130,4 @@ r.close()
 **Note:** That if there are two hyperlinks with the same label "here" and we execute rpa.click("breast-cancer.data"), then the robot will click on the first one it finds.
 
 ## Conclusion
-In the world of advancement of science and technology, rise in AR, AI,NFT, BlockChain and other cryptocurrency, you don't have to be scared of technology rather you have to embrance the rise of it. RPA would grow to have more application especially in the healthcare and finance sector. The would help save time which are usually lost during document sorting.
+In the world of advancement of science and technology, rise in AR, AI,NFT, BlockChain and other cryptocurrency, you don't have to be scared of technology rather you have to embrance the rise of it. RPA would grow to have more application especially in the healthcare and finance sector. This would help save time which are usually lost during document sorting.
