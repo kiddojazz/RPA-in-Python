@@ -118,6 +118,7 @@ So, here's what is actually happening here:
 - It saves the search as a PNG format.
 
 
+
 ![alt text](https://github.com/kiddojazz/RPA-in-Python/blob/main/images/1_NYu8AhHZdcLr7hDOhRn0Pw.gif)
 
 At the end of each line of code you have to close the rpa system. This way saves energy of your device.
