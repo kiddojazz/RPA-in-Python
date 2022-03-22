@@ -12,7 +12,7 @@ There has been a misconception that with the advance of RPA software there would
 According to Wikipedia, Robotic Process Automation (RPA) is a form of business process automation technology based on metaphorical software robots (bots) or artificial Intelligence.
 The RPA software can be said to be a robot or bot that can learn, mimic(copy), and then execute processes based on business processes.
 
-The RPA can also be said to be an application of Technology, governed by Logic and structural input, aimed at recording steps and automating business processes as a required output.
+The RPA can also be said to be an application of Technology, governed by logic and structural unit, aimed at recording steps and automating business processes as a required output.
 
 # What are the benefits of RPA?
 
@@ -32,11 +32,11 @@ The RPA can also be said to be an application of Technology, governed by Logic a
 
 8. **Better Support and Management:** Operational processes are improved with the implementation of RPA in the work process. It helps improve operational quality and monitor operational networks across various sessions of an organization.
 
-Now let's do some coding, for this project we would be using the RPA Framework which is an open-source libraries tool. 
+Now, let's do some coding for this project using the RPA framework. As you probably already know, the RPA framework is an open-source library tool. 
 
-## Let's start by installing all necessary Python Package
+## Install All Necessary Python Packages
 
-Let's start
+Here we go:
 
 ```
 !pip install rpa
@@ -51,20 +51,20 @@ import rpa as r
 ## Applications
 - **Site Navigation**
 RPA has the ability to navigate through the web and get specific information. The process saves time and stress.
-Now we can initialize the rpa to open a new browser window. The browser used by the rpa package is Google Chrome.
+Now we can initialize the RPA to open a new browser window. The browser used by the RPA package is Google Chrome.
 
 ```
 r.init()
 ```
 
-After we initiate the rpa, our aim is to navigate through a particular blog post
+After we initiate the rpa, our aim is to navigate through a particular blog post.
 
 ```
 r.url("https://www.urbizedge.com/custom-shape-map-in-power-bi/")
 #This is aimed at navigating to a website by using the rpa bot
 ```
 
-After you achieve the navigating it is only proper you close the browser.
+When you have successfully achieved the navigating, it is only proper that you close the browser.
 ```
 r.close()
 ```
@@ -73,7 +73,7 @@ r.close()
 
 - **Automatically Download Data from a site**
 
-Start by initializing the rpa library
+Start by initializing the RPA library
 
 ```
 r.init()
@@ -90,7 +90,7 @@ This would automatically open your Chrome browser and navigate to the UCI websit
 
 ![alt text](https://github.com/kiddojazz/RPA-in-Python/blob/main/images/1_suVb1vHRVX-SDeFS1tmDhA.png)
 
-After getten to the site you would have to click on the download button which can be done by running the click line of code. This would help in downloading the code.
+Click on the download button on the site. This can be done by running the click line of code. It will help in downloading the code.
 
 ```
 r.click("breast-cancer.data")
@@ -112,11 +112,11 @@ print(r.read('result-stats'))
 r.snap('page', 'USA.png')
 ```
 
-What is actually happening here is firstly, your chrome browser opens when you initialize the code.
-It then navigate to google were is search for a specific key word which we have inserted called USA.
-Lastly it then saves the search location as a png format.
+So, here's what is actually happening here: 
+- Your chrome browser opens when you initialize the code.
+- It navigates to Google and searches for the specific keyword we have inserted. (in this case, USA).
+- It saves the search as a PNG format.
 
-Below is an explanation of the entire process of what actually happened.
 
 ![alt text](https://github.com/kiddojazz/RPA-in-Python/blob/main/images/1_NYu8AhHZdcLr7hDOhRn0Pw.gif)
 
@@ -130,4 +130,4 @@ r.close()
 **Note:** That if there are two hyperlinks with the same label "here" and we execute rpa.click("breast-cancer.data"), then the robot will click on the first one it finds.
 
 ## Conclusion
-In the world of advancement of science and technology, rise in AR, AI,NFT, BlockChain and other cryptocurrency, you don't have to be scared of technology rather you have to embrance the rise of it. RPA would grow to have more application especially in the healthcare and finance sector. This would help save time which are usually lost during document sorting.
+In the world of advancement of science and technology, rise in AR, AI, NFT, BlockChain and other cryptocurrency, you don't have to be scared of technology. Rather, you have to embrace the rise of it. RPA would grow to have more application, especially in the healthcare and finance sector. This would help save time that is usually lost during document sorting.
